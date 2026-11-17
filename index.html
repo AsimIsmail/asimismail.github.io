@@ -1,63 +1,104 @@
 
 ---
-layout: home
+layout: default
 title: Home
 ---
 
-<section class="hero">
-  <p class="terminal-text">HELLO, WORLD. I'M</p>
+<main class="home-container">
 
-  <h1>Asım İsmail<span class="green">_</span></h1>
+  <section class="hero">
 
-  <h2>Cybersecurity Researcher &amp; Penetration Tester</h2>
+    <p class="terminal-label">
+      <span class="green">root@asimsec</span>:~$ whoami
+    </p>
 
-  <p>
-    Exploring vulnerabilities, understanding attack surfaces,
-    and documenting my journey through cybersecurity.
-  </p>
+    <h1>Asım İsmail<span class="green">_</span></h1>
 
-  <div class="hero-buttons">
-    <a href="/writeups/" class="primary-btn">
-      Explore Write-ups
+    <h2>Cybersecurity Researcher &amp; Penetration Tester</h2>
+
+    <p class="hero-description">
+      Exploring vulnerabilities, understanding attack surfaces,
+      and documenting my journey through cybersecurity.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="/writeups/" class="btn-primary">
+        Explore Write-ups →
+      </a>
+
+      <a href="/projects/" class="btn-secondary">
+        View Projects
+      </a>
+    </div>
+
+  </section>
+
+  <section class="content-section">
+
+    <p class="section-label">// 01. ABOUT ME</p>
+
+    <h2>Who Am I?</h2>
+
+    <p>
+      I'm a Computer Engineer and MSc student in Cyber Security
+      at Istanbul University-Cerrahpaşa.
+      My interests include penetration testing, web application
+      security, network security, and vulnerability assessment.
+    </p>
+
+    <p>
+      This platform is where I document my practical experiences,
+      share technical knowledge, and explore different areas
+      of cybersecurity.
+    </p>
+
+  </section>
+
+  <section class="content-section">
+
+    <p class="section-label">// 02. CERTIFICATIONS &amp; ACHIEVEMENTS</p>
+
+    <h2>Professional Background</h2>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>eCPPT</h3>
+        <p>INE Certified Professional Penetration Tester</p>
+      </div>
+
+      <div class="info-card">
+        <h3>eJPT</h3>
+        <p>Junior Penetration Tester</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Top 3%</h3>
+        <p>TryHackMe global ranking</p>
+      </div>
+
+      <div class="info-card">
+        <h3>MSc</h3>
+        <p>Cyber Security</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="content-section">
+
+    <p class="section-label">// 03. LATEST ARTICLES</p>
+
+    <h2>Knowledge Sharing</h2>
+
+    <p>
+      Write-ups, penetration testing methodologies,
+      security research, and technical tutorials.
+    </p>
+
+    <a href="/writeups/" class="text-link">
+      Browse all articles →
     </a>
-    <a href="/projects/" class="secondary-btn">
-      View Projects
-    </a>
-  </div>
-</section>
 
-<section class="profile">
-  <h2>01. About Me</h2>
+  </section>
 
-  <p>
-    I'm a Computer Engineer and MSc student in Cyber Security
-    at Istanbul University-Cerrahpaşa, interested in penetration
-    testing, web security, and network security.
-  </p>
-
-  <p>
-    I use this platform to document practical experiences,
-    share technical research, and continuously improve my
-    cybersecurity skills.
-  </p>
-</section>
-
-<section class="credentials">
-  <h2>02. Certifications &amp; Achievements</h2>
-
-  <div class="credential-grid">
-    <div class="credential">eCPPT</div>
-    <div class="credential">eJPT</div>
-    <div class="credential">TryHackMe Top 3%</div>
-    <div class="credential">MSc Cyber Security</div>
-  </div>
-</section>
-
-<section class="latest">
-  <h2>03. Latest Write-ups</h2>
-  <p>
-    Practical walkthroughs, enumeration, exploitation,
-    and privilege escalation.
-  </p>
-  <a href="/writeups/">Explore all write-ups →</a>
-</section>
+</main>
