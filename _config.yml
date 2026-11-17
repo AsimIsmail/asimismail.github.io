@@ -10,5 +10,7 @@ permalink: /:categories/:title/
 
 header_pages:
   - about.md
+  - writeups/index.md
+  - projects/index.md
 
 show_excerpts: true
