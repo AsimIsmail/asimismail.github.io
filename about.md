@@ -6,13 +6,13 @@ permalink: /about/
 
 # About Me
 
-I'm Asım İsmail, a Computer Engineer and MSc
-student in Cybersecurity at Istanbul
-University-Cerrahpaşa.
+I'm Asim Ismail, a Computer Engineer and MSc student in Cybersecurity at Istanbul University-Cerrahpaşa.
 
-My interests include penetration testing,
-web application security, network security,
-and vulnerability assessment.
+My current research focuses on DDoS mitigation through slice isolation in 5G networks.
+
+My technical interests include penetration testing, web application security, network security, and vulnerability assessment.
+
+I'm passionate about cybersecurity, exploring emerging security challenges, and developing practical solutions to strengthen network and application security.
 
 ## Certifications
 
