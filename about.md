@@ -7,7 +7,7 @@ permalink: /about/
 # About Me
 
 I'm Asım İsmail, a Computer Engineer and MSc
-student in Cyber Security at Istanbul
+student in Cybersecurity at Istanbul
 University-Cerrahpaşa.
 
 My interests include penetration testing,
