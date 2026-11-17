@@ -8,6 +8,10 @@ theme: minima
 markdown: kramdown
 permalink: /:categories/:title/
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 header_pages:
   - about.md
   - writeups/index.md
