@@ -1,0 +1,14 @@
+
+title: "AsimSec"
+description: "Cybersecurity Blog & Professional Portfolio"
+author: "Asım İsmail"
+
+theme: minima
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+header_pages:
+  - about.md
+
+show_excerpts: true
