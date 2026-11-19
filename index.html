@@ -3,36 +3,47 @@ layout: default
 title: Home
 ---
 
-
 <main class="home-container">
 
+  <!-- HERO SECTION -->
   <section class="hero">
 
     <p class="terminal-label">
       <span class="green">root@asimsec</span>:~$ whoami
     </p>
 
-    <h1>Asim Ismail<span class="green">_</span></h1>
+    <h1>Asım İsmail<span class="green">_</span></h1>
 
-    <h2>Cybersecurity Researcher &amp; Penetration Tester</h2>
+    <h2>Penetration Tester | Cybersecurity MSc Student</h2>
 
     <p class="hero-description">
-      Exploring vulnerabilities, understanding attack surfaces,
-      and documenting my journey through cybersecurity.
+      Computer Engineer passionate about cybersecurity, penetration
+      testing, and security research. I enjoy identifying vulnerabilities,
+      understanding how systems can be compromised, and sharing what I learn.
     </p>
 
     <div class="hero-buttons">
-      <a href="/writeups/" class="btn-primary">
+      <a href="{{ '/writeups/' | relative_url }}" class="btn-primary">
         Explore Write-ups →
       </a>
 
-      <a href="/projects/" class="btn-secondary">
+      <a href="{{ '/projects/' | relative_url }}" class="btn-secondary">
         View Projects
       </a>
     </div>
 
+    <p class="social-links">
+      <a href="https://github.com/AsimIsmail" target="_blank" rel="noopener">
+        GitHub ↗
+      </a>
+      <span class="green"> | </span>
+      <a href="{{ '/about/' | relative_url }}">About Me →</a>
+    </p>
+
   </section>
 
+
+  <!-- ABOUT SECTION -->
   <section class="content-section">
 
     <p class="section-label">// 01. ABOUT ME</p>
@@ -40,27 +51,75 @@ title: Home
     <h2>Who Am I?</h2>
 
     <p>
-      I'm a Computer Engineer and MSc student in cybersecurity
+      I'm a Computer Engineer and MSc student in Cyber Security
       at Istanbul University-Cerrahpaşa.
-      My interests include penetration testing, web application
-      security, network security, and vulnerability assessment.
     </p>
 
     <p>
-      This platform is where I document my practical experiences,
-      share technical knowledge, and explore different areas
-      of cybersecurity.
+      My primary interests include penetration testing, web application
+      security, network security, and vulnerability assessment.
+      Through practical projects and research, I continuously work
+      on improving my technical skills.
     </p>
 
   </section>
 
+
+  <!-- FOCUS AREAS -->
   <section class="content-section">
 
-    <p class="section-label">// 02. CERTIFICATIONS &amp; ACHIEVEMENTS</p>
+    <p class="section-label">// 02. AREAS OF INTEREST</p>
+
+    <h2>What I Focus On</h2>
+
+    <div class="info-grid">
+
+      <div class="info-card">
+        <h3>Penetration Testing</h3>
+        <p>
+          Identifying and exploiting security vulnerabilities
+          through practical security assessments.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Web Security</h3>
+        <p>
+          Exploring web application vulnerabilities, attack
+          techniques, and security testing methodologies.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Network Security</h3>
+        <p>
+          Studying network protocols, attack surfaces,
+          and defensive security mechanisms.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Security Research</h3>
+        <p>
+          Exploring security technologies, vulnerability
+          assessment, and emerging cybersecurity topics.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ACHIEVEMENTS -->
+  <section class="content-section">
+
+    <p class="section-label">// 03. CERTIFICATIONS & ACHIEVEMENTS</p>
 
     <h2>Professional Background</h2>
 
     <div class="info-grid">
+
       <div class="info-card">
         <h3>eCPPT</h3>
         <p>INE Certified Professional Penetration Tester</p>
@@ -68,7 +127,7 @@ title: Home
 
       <div class="info-card">
         <h3>eJPT</h3>
-        <p>Junior Penetration Tester</p>
+        <p>Junior Penetration Tester Certification</p>
       </div>
 
       <div class="info-card">
@@ -78,25 +137,29 @@ title: Home
 
       <div class="info-card">
         <h3>MSc</h3>
-        <p>Cybersecurity</p>
+        <p>Cyber Security — Istanbul University-Cerrahpaşa</p>
       </div>
+
     </div>
 
   </section>
 
+
+  <!-- WRITE-UPS -->
   <section class="content-section">
 
-    <p class="section-label">// 03. LATEST ARTICLES</p>
+    <p class="section-label">// 04. KNOWLEDGE SHARING</p>
 
-    <h2>Knowledge Sharing</h2>
+    <h2>Write-ups & Research</h2>
 
     <p>
-      Write-ups, penetration testing methodologies,
-      security research, and technical tutorials.
+      I use this platform to document machines I solve, share
+      technical walkthroughs, explore security tools, and
+      publish my cybersecurity research.
     </p>
 
-    <a href="/writeups/" class="text-link">
-      Browse all articles →
+    <a href="{{ '/writeups/' | relative_url }}" class="text-link">
+      Browse all write-ups →
     </a>
 
   </section>
